@@ -17,6 +17,9 @@ Do check out the dashboard app at https://future-stock-predictor.herokuapp.com/.
 stock_market_train_2.py - For training the model <br>
 stock_market_test_2.py - For getting the predictions<br>
 dashboard_stock_market.py - For building the dashboard<br>
-
+KOTAKBANK_train.csv - Train dataset<br>
+KOTAKBANK_test.csv - Test dataset<br>
+KOTAKBANK_history.csv - Stock Prices for the past one year, for plotting on dashboard<br>
+KOTAKBANK_test_predictions.csv - Predicted Stock Prices for the next few days
 
 
