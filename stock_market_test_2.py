@@ -4,7 +4,7 @@ import numpy as np
 from sklearn.preprocessing import MinMaxScaler
 from keras.models import model_from_json
 
-
+# loading the train data
 dataset_train = pd.read_csv('KOTAKBANK_train.csv')
 dataset_train_copy = dataset_train.copy()
 dataset_train_copy = dataset_train_copy.sort_values(by='Date')
