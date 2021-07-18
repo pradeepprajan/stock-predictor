@@ -7,7 +7,7 @@ from keras.layers import Dense
 from keras.layers import GRU
 from keras.layers import Dropout
 
-# reading the train dataset
+# l the train dataset
 dataset_train = pd.read_csv('KOTAKBANK_train.csv')
 dataset_train_copy = dataset_train.copy()
 dataset_train_copy = dataset_train_copy.sort_values(by='Date')
@@ -65,10 +65,7 @@ with open('regressor.json', 'w') as json_file:
 regressor.save_weights("model.h5")
 print("Saved model to disk")
 
-# making predictions and visualizing the results
-dataset_test = pd.read_csv('KOTAKBANK_test.csv')
-dataset_test = dataset_test.sort_values(by='Date')
-real_stock_price = dataset_test.iloc[:,1:5].values
+
 
 
 
